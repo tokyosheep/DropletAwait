@@ -19,8 +19,8 @@ const connectServer:(receiveDropped:(r:any)=>void,postURL:number)=>void = (recei
                     req.on("end",response=>{
                         response = JSON.parse(body);
                         console.log(response);
-                        response.forEach(r=>receiveDropped(r));
                         res.end("nothing");
+                        receiveDropped(response);
                     });
                 }else{
                     console.log("error");

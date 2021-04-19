@@ -2,6 +2,7 @@ import * as React from "react";
 import { useMemo } from "react";
 import { createGlobalStyle } from "styled-components";
 import { init } from "../fileSystem/init";
+import { SendHostScript } from "../fileSystem/connectJSX";
 
 import MainAIPage from "./pages/mainPage";
 
@@ -18,7 +19,11 @@ const GlobalStyle = createGlobalStyle`
 const LayoutAI = () =>{
     useMemo(()=>{
         init();
-        connectServer((f)=>console.log(f),3000);
+        connectServer(async(actionFile)=>{
+            actionFile.funcType = "AIAction";
+            const jsx = new SendHostScript();
+            await jsx.callHostScript(actionFile)
+        },3000);
     },[]);
     return(
         <>

@@ -13,9 +13,11 @@ export const AIContainer = {
     `,
     HeaderCompo:styled.header`
         grid-area:Header;
+        margin: auto;
     `,
     MainCompo:styled.main`
         grid-area:Main;
+        margin: auto;
     `,
     FooterCompo:styled.footer`
         grid-area:Footer;
