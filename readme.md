@@ -25,6 +25,6 @@
 
 <p>
     you need <a href="https://install.anastasiy.com/">Extension Manager</a>.
-    after install it , download packed extension <a href="kawano-shuji.com/strage/DropletAwait.zxp">here .</a>
+    after install it , download packed extension <a href="https://kawano-shuji.com/strage/DropletAwait.zxp">here .</a>
     through the Manager , you can install extension.
 </p>
