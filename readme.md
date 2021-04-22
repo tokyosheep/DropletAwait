@@ -21,18 +21,10 @@
 
 <img src="./mdImg/droplet.gif">
 
-<h2>install</h2>
-<p>
-    git clone this app and wherever you like directory and 
-</p>
-<p>
-    and then install npm modules typing on tarminal " npm install " and then...
-</p>
+<h2>how to install this</h2>
 
 <p>
-    npm run pack
-</p>
-
-<p>
-    and modules build the packed app
+    you need <a href="Anastasiy’s Extension Manager ">https://install.anastasiy.com/</a>.
+    after install it , down load packed extension <a href="">here .</a>
+    through the Manager , you can install extension.
 </p>
