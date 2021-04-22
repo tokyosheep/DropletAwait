@@ -19,7 +19,7 @@
 
 <img src="./mdImg/icon.png">
 
-<img src="droplet.gif">
+<img src="./mdImg/droplet.gif">
 
 <h2>install</h2>
 <p>
@@ -29,7 +29,9 @@
     and then install npm modules typing on tarminal " npm install " and then...
 </p>
 
-<script src="https://gist.github.com/tokyosheep/5d7709882d87c91e853ce87d1439ee99.js"></script>
+<p>
+    npm run pack
+</p>
 
 <p>
     and modules build the packed app
